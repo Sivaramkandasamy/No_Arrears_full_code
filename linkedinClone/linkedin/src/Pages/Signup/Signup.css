@@ -1,0 +1,141 @@
+body {
+  background-color: #f0f0f0;
+}
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 220vh;
+}
+
+.signup-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 430px;
+  width: 100%;
+  margin-top: 50px;
+}
+.sign-container h3 {
+  font-size: 31px;
+  font-weight: 740;
+  padding-left: 40px;
+  color: #0a66c2;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+.linkedin-logo {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 3px;
+}
+.signup-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-card label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup-card input,
+.signup-card button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Join-button {
+  background-color: #1272a5;
+  color: #ffffff;
+  border: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 15px 32px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 60px;
+}
+
+.Join-button:hover {
+  background-color: #0e2bd1;
+}
+
+.Google-button {
+  background-color: #fafcfd;
+  color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Google-button:hover {
+  background-color: #d9e7ee;
+}
+.signup-container a {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+body h1 {
+  margin-top: 8pc;
+  margin-bottom: 30px;
+}
+
+.sign-container {
+  position: absolute;
+  top: 1px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sign-container h4 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0a66c2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 22px;
+}
+
+.google-image {
+  width: 20px;
+  margin-right: 8px;
+  height: auto;
+}
+
+.toggle-Password {
+  position: absolute;
+  top: 65%;
+  right: 26pc;
+  transform: translate(-50%);
+  cursor: pointer;
+  color: #3893e9;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

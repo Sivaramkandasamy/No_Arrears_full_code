@@ -1,0 +1,266 @@
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-right: 30px;
+  overflow-y: scroll;
+}
+.navbar-main::-webkit-scrollbar {
+  opacity: 0;
+}
+.navbar-main1::-webkit-scrollbar {
+  opacity: 0;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+.navbar-left input {
+  background-color: #edf3f8;
+}
+.linkedin-logo {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  font-size: 16px;
+
+  border-radius: 5px;
+  width: 250px;
+  background: url("./Assets/search.png") no-repeat 15px center;
+  background-size: 20px;
+  padding-left: 35px;
+}
+
+.react-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+}
+
+.react-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #787878;
+}
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-right: 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.linkedin-logo {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  background: url("./Assets/search.png") no-repeat 15px center;
+  background-size: 20px;
+  padding-left: 35px;
+}
+
+.react-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  position: relative;
+}
+
+.react-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #787878;
+  font-weight: 600;
+  font-size: 14px;
+}
+.react-icon span:hover {
+  color: black;
+}
+.react-icon span {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-logo {
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.dropdown-toggle-icon {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 150px;
+}
+
+.dropdown-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0;
+}
+
+
+.navbar-main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-right: 100px;
+  border-left: 1px solid black;
+  overflow-y: scroll;
+}
+
+.react-icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #787878;
+}
+
+.react-icon1 span:hover {
+  color: black;
+}
+
+.react-icon1 span {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.react-icon span {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-logo {
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.dropdown-toggle-icon {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #7e7c7c;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 150px;
+}
+
+.dropdown-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar-main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-right: 100px;
+  border-left: 1px solid black;
+}
+
+.react-icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 2px;
+  padding-left: 2px;
+  color: #787878;
+}
+
+.react-icon1 span {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
